@@ -1,0 +1,34 @@
+{
+  "name": "arogyavan-ambulance-system",
+  "version": "2.0.0",
+  "description": "Complete ambulance booking system with separate portals for Patient, Admin, and Driver with live location tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "ambulance",
+    "booking",
+    "emergency",
+    "healthcare",
+    "location-tracking"
+  ],
+  "author": "ArogyaVan Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
